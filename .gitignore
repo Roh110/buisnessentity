@@ -1,0 +1,29 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.joblib
+.env
+*.log
+
+# All datasets and data files
+data/
+datasets/
+*.tsv
+*.csv
+*.parquet
+*.xlsx
+*.xls
+*.sqlite
+*.db
+
+# Generated outputs
+output/
+submission/
+
+# Frontend dependencies/build
+node_modules/
+dist/
+
+# IDE
+.vscode/
